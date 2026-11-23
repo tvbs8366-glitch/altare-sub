@@ -19,11 +19,24 @@ proxies:
       public-key: 4MVj0GWzeL3-BjMXhrvfBE451K31M41CMKCUxFk1sFI
       short-id: d0ea752d
     client-fingerprint: chrome
+  - name: Altare-WS
+    type: vless
+    server: tvbs747.eu.cc
+    port: 443
+    uuid: 90a0f8d2-8ea8-49c2-8216-85e73c2712c1
+    network: ws
+    tls: true
+    udp: true
+    servername: tvbs747.eu.cc
+    ws-opts:
+      path: /vless
+    client-fingerprint: chrome
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
       - Altare-SG
+      - Altare-WS
       - DIRECT
 rules:
   - MATCH,PROXY
