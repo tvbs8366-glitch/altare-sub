@@ -31,6 +31,13 @@ proxies:
     ws-opts:
       path: /vless
     client-fingerprint: chrome
+rule-providers:
+  adblock:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
+    path: ./ruleset/adblock.yaml
+    interval: 86400
 proxy-groups:
   - name: PROXY
     type: select
@@ -39,4 +46,5 @@ proxy-groups:
       - Altare-WS
       - DIRECT
 rules:
+  - RULE-SET,adblock,REJECT
   - MATCH,PROXY
