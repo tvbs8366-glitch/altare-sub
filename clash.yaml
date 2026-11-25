@@ -13,10 +13,10 @@ proxies:
     network: tcp
     tls: true
     udp: true
-    flow: xtls-r-vision
+    flow: xtls-rprx-vision
     servername: www.microsoft.com
     reality-opts:
-      public-key: 4MVj0GWzeL3-BjMXhrvfBE451K31M41CMKCUxFk1sFI
+      public-key: 4MVjQGWzeL3-BjNXhrvfBE45lK3lM41CMkCUxFk1sFI
       short-id: d0ea752d
     client-fingerprint: chrome
   - name: Altare-WS
@@ -39,7 +39,7 @@ proxies:
     network: tcp
     tls: true
     udp: true
-    flow: xtls-r-vision
+    flow: xtls-rprx-vision
     servername: www.microsoft.com
     reality-opts:
       public-key: Nc9YqvQat0Pq8BeuQX3As__agheGqYe-AMt2a-TSXjY
