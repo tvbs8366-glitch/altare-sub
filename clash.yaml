@@ -34,7 +34,7 @@ proxies:
   - name: RAKsmart-HK
     type: vless
     server: 107.149.102.86
-    port: 443
+    port: 3389
     uuid: a72700be-ce1a-49c6-b40c-f78cb0901d2b
     network: tcp
     tls: true
