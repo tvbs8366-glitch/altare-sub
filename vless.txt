@@ -1,0 +1,1 @@
+vless://90a0f8d2-8ea8-49c2-8216-85e73c2712c1@sg-sgp11.tryaltare.ai:28030?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.microsoft.com&fp=chrome&pbk=4MVjQGWzeL3-BjNXhrvfBE45lK3lM41CMkCUxFk1sFI&sid=d0ea752d&type=tcp#Altare-SG

@@ -40,7 +40,7 @@ proxies:
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.microsoft.com
+    servername: www.apple.com
     reality-opts:
       public-key: Nc9YqvQat0Pq8BeuQX3As__agheGqYe-AMt2a-TSXjY
       short-id: cc9b5626fb66488f
