@@ -45,6 +45,34 @@ proxies:
       public-key: Nc9YqvQat0Pq8BeuQX3As__agheGqYe-AMt2a-TSXjY
       short-id: cc9b5626fb66488f
     client-fingerprint: chrome
+  - name: ASCS-1
+    type: vless
+    server: "2600:70ff:b8c1:1::55b"
+    port: 8443
+    uuid: 5c48ad3f-6e3e-4277-835e-6a060c07ca4d
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.microsoft.com
+    reality-opts:
+      public-key: E7luWxpqTm3eE49nfKUqUBsheBKPaJ65Hqbht5-qxk0
+      short-id: 5d45e5408f51a56f
+    client-fingerprint: chrome
+  - name: ASCS-2
+    type: vless
+    server: "2600:70ff:b8c1:1::55a"
+    port: 8444
+    uuid: 034e3a16-7731-41f0-89ec-3574f68031db
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.microsoft.com
+    reality-opts:
+      public-key: PRL4Q9BDn7oypfU30QwpqeDKybDiAAIxviTBDXmNXG4
+      short-id: e074845be3721e3f
+    client-fingerprint: chrome
 rule-providers:
   adblock:
     type: http
@@ -59,6 +87,8 @@ proxy-groups:
       - Altare-SG
       - Altare-WS
       - RAKsmart-HK
+      - ASCS-1
+      - ASCS-2
       - DIRECT
 rules:
   - RULE-SET,adblock,REJECT
